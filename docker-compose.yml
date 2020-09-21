@@ -1,0 +1,15 @@
+version: "3.4"
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: new-proj
+    working_dir: /home/darlan/Documentos/php/new-test
+    image: php:alpine
+    volumes:
+      - "./:/home/darlan/Documentos/php/new-test"
+    command: php -S 0.0.0.0:8000
+    ports:
+      - 8000:8000
+    network_mode: host

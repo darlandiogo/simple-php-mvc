@@ -1,0 +1,13 @@
+{
+    "name": "darlan/new-test",
+    "description": "aplicaçao de teste escrito em php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darlan Diogo",
+            "email": "darlandiogo@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
